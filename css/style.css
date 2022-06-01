@@ -1,0 +1,100 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.flexible-container{
+    display: flex;
+}
+.concentric-color{
+    color: greenyellow;
+}
+.misson-year-color{
+    color: tomato;
+}
+.mission-side-border{
+    border-left: 3px rgb(160, 235, 19) solid;
+    background-image: linear-gradient(tomato cyan);
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+.top-slide-1{
+    width: 100%;
+}
+.top-slide-2{
+    width: 100%;
+    margin-left: 20px;
+}
+.top-slide-2 img{
+    width: 60%;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(45, 245, 81);
+    padding: 10px 35px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.section-headline{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+.image-sizing img{
+    width: 20%;
+}
+#misson{
+    padding: 10px 20px;
+    background-color: rgb(135, 135, 75);
+    /* background-image: linear-gradient(tomato cyan); */
+    box-shadow: 10px 10px 40px;
+    /* border-image-slice: 1; */
+    margin: 0 20px;
+    border-radius: 10px;
+}
+#vission{
+    padding: 10px 20px;
+    background-color: rgb(204, 231, 171);
+    /* background-image: linear-gradient(tomato cyan); */
+    box-shadow: 10px 10px 40px;
+    /* border-image-slice: 1; */
+    margin: 0 20px;
+    border-radius: 10px;
+}
+#goals{
+    padding: 10px 20px;
+    background-color: rgb(178, 238, 178);
+    box-shadow: 10px 10px 40px;
+    /* border-image-slice: 1; */
+    margin: 0 20px;
+    border-radius: 10px;
+}
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+}
+.half-width img{
+    width: 70%;
+}
+.margin-button{
+    margin-bottom: 80px;
+}
+.background-banner{
+    background-image: url(/images/pictures/dream-bg.png);
+    background-repeat: no-repeat;
+}
+.app-image img{
+    width: 50%;
+}
+footer{
+    background-color: rgb(75, 75, 118);
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+.margin-left{
+    margin-left: 100px;
+}
+.margin-right{
+    margin-right: 100px;
+}
